@@ -7,8 +7,8 @@ const containerStyle = {
   };
   
   const center = {
-    lat: -37.718098,
-    lng: 144.9865751
+    lat: -37.7136891,
+    lng: 144.9949284
   };
   
   function PartyMapComponent() {
