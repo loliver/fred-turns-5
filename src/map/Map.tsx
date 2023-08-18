@@ -17,9 +17,10 @@ const containerStyle = {
       googleMapsApiKey: "AIzaSyAV0nsCIRlAhY-0eUpxsuK5eKv6EEuy_Vk"
     })
   
-    const [map, setMap] = useState(null)
+    const [map, setMap] = useState<google.maps.Map | null>(null)
+    console.log(map === null ? 'Map not loaded' : 'Map loaded') // need to use `map` for tsc build to work
   
-    const onLoad = useCallback(function callback(map) {
+    const onLoad = useCallback(function callback(map: google.maps.Map) {
       // This is just an example of getting and using the map instance!!! don't just blindly copy!
       const bounds = new window.google.maps.LatLngBounds(center);
       map.fitBounds(bounds);
@@ -27,7 +28,7 @@ const containerStyle = {
       setMap(map)
     }, [])
   
-    const onUnmount = useCallback(function callback(map) {
+    const onUnmount = useCallback(function callback() {
       setMap(null)
     }, [])
   
