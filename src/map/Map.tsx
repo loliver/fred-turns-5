@@ -21,7 +21,7 @@ const containerStyle = {
         <GoogleMap
           mapContainerStyle={containerStyle}
           center={center}
-          zoom={5}
+          zoom={10}
         >
           <Marker position={center} />          
         </GoogleMap>
