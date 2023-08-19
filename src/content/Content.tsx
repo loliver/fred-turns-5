@@ -4,11 +4,11 @@ import * as styles from './Content.css'
 
 export const Content = () => (
   <>
-    <h1 className={styles.heading}>Fred turns 5!</h1>
+    <h1 className={styles.heading}>Freddie turns 5!</h1>
     <p>Come and join us for an afternoon of fun at <strong>Edwardes Lake Park</strong> to celebrate Freddie's 5th birthday!</p>
     <p>There will be snacks, a big playground, games and <strong>cake</strong>!</p>
     <h2>When?</h2>
-    <p>Sunday the <strong>10th</strong> of September, <strong>2pm to 4pm</strong>.</p>
+    <p>Sunday the <strong>10th</strong> of September,<br /><strong>2pm to 4pm</strong>.</p>
     <h2>Where?</h2>
     <p><strong>Edwardes Lake Park</strong><br />
     Griffiths St &, Edwardes St, Reservoir VIC 3073</p>
