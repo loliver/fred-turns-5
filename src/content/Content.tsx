@@ -1,3 +1,5 @@
+import { PartyMap } from '../map'
+
 export const Content = () => (
   <>
     <h1>Fred turns 5!</h1>
@@ -8,6 +10,7 @@ export const Content = () => (
     <h2>Where?</h2>
     <p><strong>Edwardes Lake Park</strong></p>
     <p>Griffiths St &, Edwardes St, Reservoir VIC 3073</p>
+    <PartyMap />
     <h2>RSVP</h2>
     <p>Let my Dad know if you can make it! Contact Oliver via email at <a href="mailto:oliver.gassman@gmail.com" target="_blank">oliver.gassman@gmail.com</a> or on mobile at <a href="tel:0403163366" target="_blank">0403 16 33 66</a>.</p>
     <p><a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NjM3Mm5la2pldjlvOGptNTF0dGYxc2ZhZDIgZmFtaWx5MDQwNDYzMzE3MTM1MDIzOTEzMTZAZw&tmsrc=family04046331713502391316%40group.calendar.google.com" target="_blank">Add to your calendar.</a></p>
