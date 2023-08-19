@@ -8,7 +8,7 @@ function App() {
   document.documentElement.style.background = `linear-gradient(217deg, rgba(75, 75, 0, 0.8), rgba(75,75,0,0) 70.71%),
   linear-gradient(127deg, rgba(0,75,75,.8), rgba(0,75,75,0) 70.71%),
   linear-gradient(336deg, rgba(75,0,75,.8), rgba(75,0,75,0) 70.71%),
-  url("${stars}") repeat`
+  url(${stars}) repeat`
   return (
     <div className={styles.wrapper}>
       <Masthead />
