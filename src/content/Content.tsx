@@ -14,7 +14,7 @@ export const Content = () => (
     Griffiths St &, Edwardes St, Reservoir VIC 3073</p>
     <PartyMap />
     <h2>RSVP</h2>
-    <p>Let my Dad know if you can make it!</p>
+    <p>Let my Dad know if you can make it by <strong>September 1st</strong>!</p>
     <p>Contact Oliver via <br />email <a href="mailto:oliver.gassman@gmail.com" target="_blank">oliver.gassman@gmail.com</a> <br />or on mobile <a href="tel:0403163366" target="_blank">0403 16 33 66</a>.</p>
     <p><a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NjM3Mm5la2pldjlvOGptNTF0dGYxc2ZhZDIgZmFtaWx5MDQwNDYzMzE3MTM1MDIzOTEzMTZAZw&tmsrc=family04046331713502391316%40group.calendar.google.com" target="_blank">Add to your calendar.</a></p>
   </>
